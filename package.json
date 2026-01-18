@@ -1,0 +1,27 @@
+{
+  "name": "ci-cd-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizJamal06/ci-cd-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FaizJamal06/ci-cd-tutorial/issues"
+  },
+  "homepage": "https://github.com/FaizJamal06/ci-cd-tutorial#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
